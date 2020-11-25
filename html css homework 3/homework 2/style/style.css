@@ -1,0 +1,95 @@
+body{
+    background-color: silver;
+    font-family: sans-serif;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+li{
+    background-color: rgb(0, 194, 162);
+    width: 260px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    border-radius: 6px;
+}
+
+li p{
+    display: inline;
+    margin-left: 10px;
+}
+
+#slist1{
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    left: 265px;
+}
+
+li ul li {
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+#slist2{
+    visibility: hidden;
+    position: absolute;
+    top: 45px;
+    left: 265px;
+}
+
+#slist3 {
+    visibility: hidden;
+    position: absolute;
+    top: 135px;
+    left: 265px; 
+}
+
+#slist4 {
+    visibility: hidden;
+    position: absolute;
+    top: 120px;
+    left: 265px; 
+}
+
+li span{
+   position: relative;
+   top: 10px;
+   margin-left: 5px;
+}
+
+#a1, #a2, #a3, #a4 {
+    display: inline;
+    color: white;
+    float: right;
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+li:hover {
+    background-color: rgb(28, 238, 203);
+}
+
+ul li:hover #slist1{
+    visibility: visible;
+}
+
+ul li:hover #slist4{
+    visibility: visible;
+}
+
+
+ul li ul li:hover #slist2{
+    visibility: visible;
+}
+
+ul li ul li:hover #slist3{
+    visibility: visible;
+}
