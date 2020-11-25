@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope&display=swap"/>
+    <title>Ioanna Mitsani - Contact Form</title>
+    </head>
+<body>
+    <div class="container">
+        <form>
+            <h1> Φόρμα Επικοινωνίας </h1>
+            <h2>Θέλεις να ρωτήσεις κάτι; Στείλε μου μήνυμα συμπληρώνοντας την παρακάτω φόρμα.</h2>
+        </br>
+        <fieldset id="fs1">
+            <legend>Στοιχεία Επικοινωνίας</legend>
+        <div id=info>    
+        <label> <span>Όνομα:</span> <input class="input" type = "text" required/> </label> </br>
+        <label> <span>Επίθετο:</span> <input class="input" type = "text" required/> </label> </br>
+        <label> <span>Email:</span> <input class="input" type = "email" required/> </label> </br>
+        <label> <span>Τηλέφωνο:</span> <input class="input" type = "tel" required/> </label> </br>
+        </div>
+        </fieldset>
+    </br>
+        <fieldset id="fs2">
+            <legend>Το μήνυμά σου</legend>
+        <label>Πώς έμαθες για αυτό το site;</label>
+        <div id="message">
+        <label class="checkbox">Από τα social media <input type="checkbox" name="logos-epikoinonias"/> </label>
+        <label class="checkbox">Μου το σύστησε ένας φίλος μου <input type="checkbox" name="logos-epikoinonias"/> </label>
+        <label class="checkbox">Το ήξερα <input type="checkbox" name="logos-epikoinonias"/> </label>
+    </div>
+        <label id="text">Γράψε μας το μήνυμά σου: </br> <textarea rows="10" cols="60"></textarea></label>
+        
+        </fieldset>
+        <div id="buttons">
+        <input id="submit" type="submit" value = "Αποστολή"/>
+        <input id="reset" type="reset" value = "Επαναφορά"/>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/coding.jpg);
+    filter: grayscale(50%);
+    background-color: rosybrown;
+    font-family: Manrope, Calibri;
+}
+
+.container {
+    background-color: rgb(44, 44, 44);
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+
+h1{
+    color: palevioletred;
+    text-align: center;
+    padding-top: 6px;
+}
+
+h2 {
+    color: rosybrown;
+    text-align: center;
+    margin-top: 10px;
+}
+
+legend {
+    padding: 0 10px;
+    color: rosybrown;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+fieldset {
+    border-color: palevioletred;
+    border-style: dotted;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#fs1 {
+    margin-top: 30px;
+}
+
+#info{
+    
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+label { 
+    color: rosybrown;
+    display: inline-block;
+    
+}
+
+span {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    padding: 5px;
+}
+
+.input {
+    display: inline-block;
+    width: 200px;
+   
+}
+
+#message {
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+    padding-bottom: 5px;
+}
+
+
+.checkbox {
+    display: table-cell;
+    text-align: left;
+}
+
+
+
+#fs2 label {
+    padding-bottom: 10px;
+}
+
+#text {
+    margin-top: 10px;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: larger;
+    background-color: palevioletred;
+    border-radius: 0px;
+    border-style: hidden;
+    margin-right: 5px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: rosybrown;
+}
+
+#reset {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: larger;
+    background-color: palevioletred;
+    border-radius: 0px;
+    border-style: hidden;
+    margin-left: 5px;
+    
+}
+
+#reset:hover {
+    background-color: white;
+    color: rosybrown;
+}
